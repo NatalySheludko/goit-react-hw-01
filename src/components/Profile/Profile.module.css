@@ -26,7 +26,7 @@
 }
 
 .description {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
   font-size: 40px;
   font-weight: 400;
   color: grey;
@@ -49,10 +49,14 @@
   border-right: 3px solid grey;
 }
 
+.statsItem:last-child {
+  border-right: none;
+}
+
 .stats {
   display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 10px;
-	font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: 700;
 }
