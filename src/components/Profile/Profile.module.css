@@ -38,6 +38,8 @@
   font-size: 35px;
   background-color: #d3d3d3;
   border-top: 3px solid grey;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
 .statsItem {
